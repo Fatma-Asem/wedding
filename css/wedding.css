@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1px;
+}
+
+body {overflow: hidden;}
+
+/* start navbar */
+.navbar {
+    height: 80px;
+    margin: 0;
+}
+
+.navbar-header {
+    margin-top: 13px;
+}
+
+.navbar-default .navbar-collapse {   
+    background-color: #d0b594;
+    z-index: 1000;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.navbar-default .navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4d2800;
+    font-size: x-large;
+}
+
+.nav {
+    margin-top: 13px;
+}
+
+.nav li a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a {color: #6f6c62;}
+
+.navbar-default {
+border: none;
+border-radius: 0%;
+background-color: #d0b594;
+}
+/* end navbar */
+
+/* start header section */
+.carousel {
+    max-height: 650px;
+}
+
+.carousel-inner {
+    max-height: 650px;
+}
+/* end header section */
+
+/* start welcome section */
+.welcome-section {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #d09f6f;
+}
+
+.welcome-section h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #653D2A;
+    margin-bottom: 30px;
+}
+
+.welcome-section p.mainly {
+    font-family: 'Handlee', cursive;
+    margin-bottom: 40px;
+}
+
+.welcome-section h3 {margin-top: 0;}
+
+.welcome-section span>a{
+    color: #344625;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.welcome-section .first-img {
+    margin-bottom: 30px;
+}
+
+.welcome-section img.image-left {
+    width: 90%;
+    margin-bottom: 12px;
+}
+/* end welcome section */
+
+/* start services section */
+.services-section {
+    background: url('../images/bouquet_flowers_hands_145393_1920x1080.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 410px;
+}
+
+.services-section .services-section-overlay {
+    background-color: rgba(46, 29, 6, 0.6);
+    height: 100%;
+}
+
+.services-section h2 {
+    color: #CEAD61;
+    position: absolute;
+    top: 2520px;
+    margin-left: 0;
+}
+
+.services-section img {
+    height: 300px;
+    width: 800px;
+    display: block;
+    margin: auto;
+    margin-top: 58px;
+    opacity: 0.85;
+}
+/* end services section */
+
+/* start products section */
+.products-section {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #d09f6f;
+}
+
+.products-section h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #653D2A;
+    margin-bottom: 30px;
+}
+
+.products-section p {
+    font-family: 'Handlee', cursive;
+}
+
+.products-section .mainly {margin-bottom: 45px;}
+
+.products-section img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    margin-bottom: 30px;
+}
+/* end products section */
+
+/* start accessories section */
+.accessories-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #180900;
+    height: 400px;
+
+}
+
+.accessories-section h2 {
+    color: #D09F6F;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.accessories-section .carousel-indicators {top: 75px; bottom: 0}
+
+.accessories-section .carousel-indicators li 
+{
+    border: 2px solid #6E4B38;
+    text-indent: 0;
+    height: 60px;
+    width: 60px;
+    opacity: 0.5;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease
+}
+
+.accessories-section .carousel-indicators li.active {opacity: 1; background: none; height: 70px; width: 70px}
+
+.accessories-section .carousel-indicators li img {height: 100%; width: 100%; border-radius: 50%}
+
+.accessories-section p.lead {color: #B69E86;}
+/* end accessories section */
+
+/* start subscribe section */
+.subscribe-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: #d09f6f;
+}
+
+.subscribe-section h2 {
+    color: #180900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.subscribe-section .form-control {
+    width: 60%;
+    height: 47px;
+    color: #180900;
+    display: inline-block;
+}
+
+.subscribe-section input[type='email'] {margin-right: -10px;}
+
+.subscribe-section .btn-default {    
+    border: none;
+    height: 45px;
+    background-color: #180900;
+    width: 150px;
+    color: #d09f6f;
+}
+/* end subscribe section */
+
+/* start contact section */
+.contact-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #180900;
+    background-image: url('../images/kisspng-black-and-white-wallpaper-mist-png-transparent-image-5a76687b389ec9.6518014115177094352319.png');
+    background-size: cover;
+}
+
+.contact-section .fa-glass-cheers {
+    color: #d09f6f;
+}
+
+.contact-section h2 {
+    color: #d09f6f;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.contact-section .form-group {
+    margin-bottom: 22px;
+}
+
+.contact-section textarea {
+    margin-bottom: 15px;
+}
+
+.contact-section .btn-default {
+    width: 100%;
+    background-color: #180900;
+    color: #d09f6f;
+    border: none;
+    height: 37px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/* end contact section */
+
+/* start about section */
+.about-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #d09f6f;
+}
+
+.about-section .fas {    
+    color: #180900;
+    margin-top: 40px;
+}
+
+.about-section h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #180900;
+}
+
+.about-section p {
+    color: #624F3F;
+    letter-spacing: 2px;
+}
+/* end about section */
+
+/* start footer section */
+.footer-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #180900;
+    color: #d09f6f;
+}
+
+.footer-section .fab {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.footer-section .fab:hover {
+    opacity: 1;
+}
+/* end footer section */
+
+/* start media */
+@media (min-width: 620px) and (max-width: 992px) {
+    .services-section h2 {top: 3425px;
+        margin-left: 110px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .products-section img {height: 400px;}
+
+    .services-section h2 {top: 1870px; margin-left: 200px;}
+}
+
+@media (min-width: 1200px){
+    .products-section img {height: 400px;}
+
+    .services-section h2 {top: 1970px; margin-left: 316px;}
+
+    .accessories-section .carousel-indicators li {height: 130px; width: 130px;}
+
+    .accessories-section .carousel-indicators li.active {height: 140px; width: 140px}
+    
+    .subscribe-section .form-control {
+    width: 80%;
+    height: 47px;
+    color: #180900;
+    display: inline-block;
+    }
+
+    .subscribe-section .btn-default {    
+        border: none;
+        height: 49px;
+        background-color: #180900;
+        width: 150px;
+        color: #d09f6f;
+    }
+
+    .navbar-default .navbar-collapse {   
+       position: static;
+    }
+
+}
+/* end media */
